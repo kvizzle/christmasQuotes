@@ -1,0 +1,60 @@
+.container-fluid {
+  background-image: url("http://res.cloudinary.com/d5hbzroitr/image/upload/v1482257928/xmas5_swnqrw.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+
+}
+
+.contain {
+  margin: 10% 15%;
+}
+
+.heading {
+  font-family: 'Indie Flower', cursive;
+  font-size: 400%;
+  text-align: center;
+  color: #fff;
+  padding-top: 5%;
+}
+
+.button {
+  padding: 2%;
+}
+
+#getMessage {
+  font-family: 'Indie Flower', cursive;
+  color: red;
+  font-weight: bold;
+}
+
+#tweet {
+  font-family: 'Indie Flower', cursive;
+}
+
+.mesborder {
+  margin-top: 3%;
+  padding: 3%;
+  min-height: 30em;
+  max-height: 90em;
+  justify-content: center;
+  position: relative;
+}
+
+.message {
+  font-family: 'Indie Flower', cursive;
+  font-size: 200%;
+  color: #fff;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 500px) {
+  .heading {
+    font-size: 200%;
+    margin-top: 30%;
+  }
+  .message {
+    font-size: 100%;
+  }
+}
